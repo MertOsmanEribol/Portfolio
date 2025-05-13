@@ -1,9 +1,6 @@
 @import "tailwindcss";
 
-
-
-.animate{
- 
+.animate {
   padding: 0 10px;
   text-transform: uppercase;
   color: #fff;
@@ -14,34 +11,31 @@
 @keyframes zoomup {
   0%,
   100% {
-      color: #d1c01e;
-      filter: blur(1px);
-      text-shadow: 0 0 10px #dcc912, 0 0 20px #d1c01e, 0 0 30px #dcc912,
+    color: #d1c01e;
+    filter: blur(1px);
+    text-shadow: 0 0 10px #dcc912, 0 0 20px #d1c01e, 0 0 30px #dcc912,
       0 0 40px #d1c01e, 0 0 60px #d1c01e, 0 0 80px #dcc912, 0 0 100px #dcc912,
       0 0 120px #dcc912;
   }
 
   30%,
   60% {
-      filter: blur(0);
-      color: white;
-      text-shadow: none;
-  }}
-
-
-  .profil-pic{
-    border-radius: 50%;
-    width: 35%;
-
+    filter: blur(0);
+    color: white;
+    text-shadow: none;
   }
+}
 
-  .background{
-    background-image: url(./assets/backgroundimg3.jpg);
-    background-size:cover;
-    
-    
-  }
+.profil-pic {
+  border-radius: 50%;
+  width: 35%;
+}
 
-  .card{
-width: 250px;
-  }
+.background {
+  background-image: url(/Imgs/backgroundimg3.jpg);
+  background-size: cover;
+}
+
+.card {
+  width: 250px;
+}
