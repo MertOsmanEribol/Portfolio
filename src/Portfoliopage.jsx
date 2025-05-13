@@ -4,6 +4,7 @@ import card2 from "/Imgs/MoeEco.png"
 import card3 from "/Imgs/toksisite.png"
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaBootstrap, FaDatabase, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 import { SiJavascript, SiTailwindcss } from 'react-icons/si'
+import { Link } from 'react-router-dom';
 
 function Portfoliopage() {
   return (
