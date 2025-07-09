@@ -21,7 +21,7 @@ function App() {
   return (
     <div>
       <div className="min-h-screen font-mono background">
-        {/* Header - Sosyal Medya Linkleri */}
+        {/* Header - Sosyal Medya Linkleri.. */}
         <div className="w-full py-4 bg-gray-900 bg-opacity-50 backdrop-blur-sm sticky top-0 z-10">
           <div className="container mx-auto px-4 flex justify-end">
             <div className="flex gap-4">
@@ -132,8 +132,7 @@ function App() {
                   </div>
                 </div>
 
-
- {/* Kart ekstra */}
+                {/* Kart ekstra */}
                 <div className="bg-gray-800 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full border border-gray-700">
                   <div className="h-48 overflow-hidden">
                     <img
@@ -145,7 +144,10 @@ function App() {
                   <div className="p-4 flex flex-col flex-grow">
                     <h3 className="text-xl mb-2 font-bold">Speed Yat</h3>
                     <p className="text-gray-300 text-sm flex-grow">
-                      Üzerinde çalıştığım ve önizlemesini hazırladığım site sadece anasayfayı deploy ettim domaine yükleyene kadar. React Tailwind Javascript teknolojileri kullanıldı ve interaktif kurumsal bir site oluşturuldu.
+                      Üzerinde çalıştığım ve önizlemesini hazırladığım site
+                      sadece anasayfayı deploy ettim domaine yükleyene kadar.
+                      React Tailwind Javascript teknolojileri kullanıldı ve
+                      interaktif kurumsal bir site oluşturuldu.
                     </p>
                     <div className="mt-4">
                       <a
@@ -161,9 +163,6 @@ function App() {
                     </div>
                   </div>
                 </div>
-
-
-
 
                 {/* Kart 2 */}
                 <div className="bg-gray-800 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full border border-gray-700">
