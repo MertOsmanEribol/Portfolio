@@ -86,6 +86,79 @@ function App() {
                     teknolojilerle kullanıcı dostu arayüzler geliştirmek.
                   </p>
                 </div>
+                <div className="sm:hidden md:block mt-12">
+                  <h1 className="text-3xl md:text-4xl font-mono mb-2 text-center lg:text-left relative inline-block">
+                    Yeteneklerim
+                    <span className="absolute bottom-0 left-0 w-full h-1 bg-amber-500 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+                  </h1>
+                  <div className="w-16 h-1 bg-amber-500 mt-2 mb-6 hidden lg:block"></div>
+
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+                    {/* HTML */}
+                    <div className="flex flex-col items-center group">
+                      <div className="w-16 h-16 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110 border border-gray-700">
+                        <FaHtml5 className="text-4xl text-orange-500" />
+                      </div>
+                      <span className="mt-2 text-center">HTML5</span>
+                    </div>
+
+                    {/* CSS */}
+                    <div className="flex flex-col items-center group">
+                      <div className="w-16 h-16 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110 border border-gray-700">
+                        <FaCss3Alt className="text-4xl text-blue-500" />
+                      </div>
+                      <span className="mt-2 text-center">CSS3</span>
+                    </div>
+
+                    {/* JavaScript */}
+                    <div className="flex flex-col items-center group">
+                      <div className="w-16 h-16 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110 border border-gray-700">
+                        <SiJavascript className="text-4xl text-yellow-400" />
+                      </div>
+                      <span className="mt-2 text-center">JavaScript</span>
+                    </div>
+
+                    {/* React */}
+                    <div className="flex flex-col items-center group">
+                      <div className="w-16 h-16 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110 border border-gray-700">
+                        <FaReact className="text-4xl text-cyan-400" />
+                      </div>
+                      <span className="mt-2 text-center">React</span>
+                    </div>
+
+                    {/* Node.js */}
+                    <div className="flex flex-col items-center group">
+                      <div className="w-16 h-16 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110 border border-gray-700">
+                        <FaNodeJs className="text-4xl text-green-500" />
+                      </div>
+                      <span className="mt-2 text-center">Node.js</span>
+                    </div>
+
+                    {/* Tailwind */}
+                    <div className="flex flex-col items-center group">
+                      <div className="w-16 h-16 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110 border border-gray-700">
+                        <SiTailwindcss className="text-4xl text-cyan-500" />
+                      </div>
+                      <span className="mt-2 text-center">Tailwind</span>
+                    </div>
+
+                    {/* Bootstrap */}
+                    <div className="flex flex-col items-center group">
+                      <div className="w-16 h-16 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110 border border-gray-700">
+                        <FaBootstrap className="text-4xl text-purple-500" />
+                      </div>
+                      <span className="mt-2 text-center">Bootstrap</span>
+                    </div>
+
+                    {/* MSSQL */}
+                    <div className="flex flex-col items-center group">
+                      <div className="w-16 h-16 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110 border border-gray-700">
+                        <FaDatabase className="text-4xl text-blue-400" />
+                      </div>
+                      <span className="mt-2 text-center">MSSQL</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -257,7 +330,7 @@ function App() {
               </div>
 
               {/* Yetenekler Bölümü */}
-              <div className="mt-12">
+              <div className="hidden lg:block md mt-12">
                 <h1 className="text-3xl md:text-4xl font-mono mb-2 text-center lg:text-left relative inline-block">
                   Yeteneklerim
                   <span className="absolute bottom-0 left-0 w-full h-1 bg-amber-500 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
