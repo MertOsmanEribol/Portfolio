@@ -3,6 +3,7 @@ import card1 from "/Imgs/sermak.png";
 import card2 from "/Imgs/MoeEco.png";
 import card3 from "/Imgs/toksisite.png";
 import card4 from "/Imgs/Cncsite.png";
+import card5 from "/Imgs/SpeedYat.png";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -130,6 +131,39 @@ function App() {
                     </div>
                   </div>
                 </div>
+
+
+ {/* Kart ekstra */}
+                <div className="bg-gray-800 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full border border-gray-700">
+                  <div className="h-48 overflow-hidden">
+                    <img
+                      src={card5}
+                      alt="Sermak Makina"
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
+                  <div className="p-4 flex flex-col flex-grow">
+                    <h3 className="text-xl mb-2 font-bold">Speed Yat</h3>
+                    <p className="text-gray-300 text-sm flex-grow">
+                      Üzerinde çalıştığım ve önizlemesini hazırladığım site sadece anasayfayı deploy ettim domaine yükleyene kadar. React Tailwind Javascript teknolojileri kullanıldı ve interaktif kurumsal bir site oluşturuldu.
+                    </p>
+                    <div className="mt-4">
+                      <a
+                        href="https://speed-yat.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block"
+                      >
+                        <button className="w-full p-2 rounded-lg bg-amber-700 hover:bg-amber-600 transition-colors hover:-translate-y-0.5 transform duration-300 hover:shadow-lg">
+                          Siteye git
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+
 
                 {/* Kart 2 */}
                 <div className="bg-gray-800 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full border border-gray-700">
