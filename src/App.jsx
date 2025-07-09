@@ -72,7 +72,7 @@ function App() {
                     FrontEnd
                   </span>
                   <span className="animate text-white font-mono text-center text-xl">
-                    Developver
+                    Developer
                   </span>
                 </div>
                 <div className="text-center mt-8">
