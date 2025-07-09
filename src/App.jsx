@@ -137,7 +137,7 @@ function App() {
                   <div className="h-48 overflow-hidden">
                     <img
                       src={card5}
-                      alt="Sermak Makina"
+                      alt="Speed Yat"
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     />
                   </div>
