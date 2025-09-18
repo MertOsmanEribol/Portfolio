@@ -251,7 +251,7 @@ function App() {
                     <p className="text-gray-300 text-sm flex-grow">
                       Bir Cnc Firması için, React ve TailwindCss ile
                       hazırladığım projem.Şimdilik geliştirme aşamasında olduğu
-                      için marka adı yok. Yakın zamanda Domaine yüklenecek.
+                      için marka adı yok.
                     </p>
                     <div className="mt-4">
                       <a
