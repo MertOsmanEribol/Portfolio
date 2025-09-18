@@ -258,10 +258,10 @@ function App() {
                         href="https://mertosmaneribol.github.io/Cncsite/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block"
+                        className="block" 
                       >
                         <button className="w-full p-2 rounded-lg bg-amber-700 hover:bg-amber-600 transition-colors hover:-translate-y-0.5 transform duration-300 hover:shadow-lg">
-                          Siteye git 
+                          Siteye git
                         </button>
                       </a>
                     </div>
