@@ -188,7 +188,7 @@ function App() {
                     <h3 className="text-xl mb-2 font-bold">Sermak Makina</h3>
                     <p className="text-gray-300 text-sm flex-grow">
                       Sermak Makina için müşteri isteği doğrultusunda basitçe
-                      oluşturulmuş site. Pure CSS ile yazıldı.
+                      oluşturulmuş site. Pure CSS ile yazıldı. Şu an bakımda
                     </p>
                     <div className="mt-4">
                       <a
@@ -310,12 +310,11 @@ function App() {
                     <h3 className="text-xl mb-2 font-bold">MoeEco</h3>
                     <p className="text-gray-300 text-sm flex-grow">
                       FullStack alışveriş sitesi projem. TailwindCSS,
-                      Javascript, React.js, Node.js, Express.js kullanıldı. Şu
-                      aşamada fullstack projemi canlıya almadım.
+                      Javascript, React.js, Node.js, Express.js kullanıldı. Backend ve Mssql Google cloud ile dağıtıldı.
                     </p>
                     <div className="mt-4">
                       <a
-                        href="#"
+                        href="https://moe-ecomerce.vercel.app/Homepage"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block"
