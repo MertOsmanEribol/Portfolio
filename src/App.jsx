@@ -1,7 +1,6 @@
 import "./App.css";
 import card1 from "/Imgs/sermak.png";
 import card2 from "/Imgs/MoeEco.png";
-import card3 from "/Imgs/toksisite.png";
 import card4 from "/Imgs/Cncsite.png";
 import card5 from "/Imgs/SpeedYat.png";
 import {
@@ -187,12 +186,11 @@ function App() {
                   <div className="p-4 flex flex-col flex-grow">
                     <h3 className="text-xl mb-2 font-bold">Sermak Makina</h3>
                     <p className="text-gray-300 text-sm flex-grow">
-                      Sermak Makina için müşteri isteği doğrultusunda basitçe
-                      oluşturulmuş site. Pure CSS ile yazıldı. Şu an bakımda
+                      Sermak Makina için tekrar hazırlandı Backend çalışması bitince kullanıcalara açılacak.
                     </p>
                     <div className="mt-4">
                       <a
-                        href="https://sermakmkn.com/"
+                        href="https://sermak.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block"
@@ -269,34 +267,7 @@ function App() {
                 </div>
 
                 {/* Kart 3 */}
-                <div className="bg-gray-800 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full border border-gray-700">
-                  <div className="h-48 overflow-hidden">
-                    <img
-                      src={card3}
-                      alt="Toksisite"
-                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                  <div className="p-4 flex flex-col flex-grow">
-                    <h3 className="text-xl mb-2 font-bold">Toksisite</h3>
-                    <p className="text-gray-300 text-sm flex-grow">
-                      Toksisite projesi. Modern web teknolojileri kullanılarak
-                      geliştirildi.
-                    </p>
-                    <div className="mt-4">
-                      <a
-                        href="https://www.toksisite.net/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block"
-                      >
-                        <button className="w-full p-2 rounded-lg bg-amber-700 hover:bg-amber-600 transition-colors hover:-translate-y-0.5 transform duration-300 hover:shadow-lg">
-                          Siteye git
-                        </button>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+             {/*3. kart Kaldırıldı tekrar yapılacak Toksisite.net*/}
                 {/* Kart 4 */}
                 <div className="bg-gray-800 rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full border border-gray-700">
                   <div className="h-48 overflow-hidden">
