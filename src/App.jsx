@@ -98,7 +98,7 @@ function App() {
                       <div className="w-16 h-16 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110 border border-gray-700">
                         <FaHtml5 className="text-4xl text-orange-500" />
                       </div>
-                      <span className="mt-2 text-center">HTML5</span>
+                      <span className="mt-2 text-center">HTML5 </span>
                     </div>
 
                     {/* CSS */}
