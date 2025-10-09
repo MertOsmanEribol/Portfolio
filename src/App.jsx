@@ -82,7 +82,7 @@ function App() {
                     Ticaret Odası, SoftITo Yazılım-Bilişim Akademisi'nde 320
                     saatlik Front-End eğitimi aldım, ekip çalışmasına yatkın ve
                     öğrenmeye açık bir geliştiriciyim. Hedefim, modern
-                    teknolojilerle kullanıcı dostu arayüzler geliştirmek.
+                    teknolojilerle kullanıcı dostu arayüzler geliştirmek. 
                   </p>
                 </div>
                 <div className=" md:block mt-12">
