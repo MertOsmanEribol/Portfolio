@@ -52,7 +52,7 @@ function App() {
 
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Sol Taraf - Profil Bilgileri */}
+            {/* Sol Taraf - Profil Bilgileri */} 
             <div className="mx-auto text-white max-w-lg">
               <img
                 className="w-48 h-48 mt-10 shadow-2xl mx-auto rounded-full object-cover transition-all duration-300 hover:scale-105 hover:shadow-xl border-4 border-opacity-20 border-white"
